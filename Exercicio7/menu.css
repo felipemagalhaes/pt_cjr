@@ -1,0 +1,43 @@
+.menu ul{
+			list-style: none;
+			margin: 0px;
+			padding-left: 0px;
+		}
+		.menu{
+			width: 200px;
+			height: 340px;
+			border-radius: 20px;
+			text-align: center;
+  			background-image: linear-gradient(to bottom,#0066cc,#b3d9ff);
+
+			
+		}
+		.menu img{
+			position: relative;
+			margin: 0 auto;
+			padding-top: 10px;
+		}
+		.menu ul li a{
+			color: white;
+			text-decoration: none;
+			font-size: 30px;
+
+		}
+		.menu ul li:hover > ul{
+			opacity: 1;
+			visibility: visible;
+		}
+		.menu ul ul{
+			opacity: 0;
+			visibility: hidden;
+			transition: all 0.3s;
+			position: absolute;
+			left:16.3%;
+			top: 24%;
+			width: 200px;
+			height: 165px;
+			border-radius: 20px;
+			padding-top: 20px;
+			background-image: linear-gradient(to bottom,#2eb82e,#adebad);
+		}
+		

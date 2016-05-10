@@ -1,0 +1,66 @@
+.box_back{
+	color: white;
+	padding-left: 20px;
+	padding-top: 05px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.box{
+	position: relative;
+	margin: 0 auto;
+	width: 95%;
+	color: white;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 05px;
+	margin-bottom: 20px;
+	padding-bottom: 05px;
+}
+
+.titulo_geral{
+	font-size: 30px;
+	color: black;
+	padding-top: 05px;
+	margin-bottom: 20px;
+	padding-bottom: 05px;
+}
+
+.titulo{
+	font-size: 20px;
+	color: black;
+	padding-top: 05px;
+	margin-bottom: 20px;
+	padding-bottom: 05px;
+}
+
+.texto{
+	color: black;
+	padding-top: 05px;
+	margin-bottom: 20px;
+	padding-bottom: 05px;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.darkblue{
+	background-color: darkblue;
+}
+
+.lightgrey{
+	background-color: lightgrey;
+}
+
+.grey{
+	background-color: grey;
+}
+
+table, tr, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: 30;
+}
+
